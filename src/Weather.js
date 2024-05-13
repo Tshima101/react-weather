@@ -5,11 +5,11 @@ import { ThreeDots } from "react-loader-spinner";
 export default function Weather() {
   const [loaded, setLoaded] = useState(false);
   const [city, setCity] = useState(" ");
-  let [message, setMessage] = useState("");
-  let [weather, setWeather] = useState(null);
-  let [description, setDescription] = useState(null);
-  let [humidity, setHumidity] = useState(null);
-  let [wind, setWind] = useState(null);
+  const [message, setMessage] = useState("");
+  const [weather, setWeather] = useState(null);
+  const [description, setDescription] = useState(null);
+  const [humidity, setHumidity] = useState(null);
+  const [wind, setWind] = useState(null);
   function handleChange(event) {
     setCity(event.target.value);
   }
