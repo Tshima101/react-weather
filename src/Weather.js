@@ -10,7 +10,6 @@ export default function Weather() {
   let [description, setDescription] = useState(null);
   let [humidity, setHumidity] = useState(null);
   let [wind, setWind] = useState(null);
-
   function handleChange(event) {
     setCity(event.target.value);
   }
@@ -39,6 +38,7 @@ export default function Weather() {
             <li>
               <img
                 src={`https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`}
+                alt="Weather icon"
               />
             </li>
           </ul>
