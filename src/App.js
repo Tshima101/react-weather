@@ -13,7 +13,7 @@ export default function App() {
             Tshimangadzo Lambani
           </a>{" "}
           and is on
-          <a href="https://github.com/Tshima101/" target="_blank">
+          <a href="https://github.com/Tshima101/react-weather" target="_blank">
             Github
           </a>{" "}
           and hosted on
