@@ -25,7 +25,11 @@ export default function App() {
             Github
           </a>{" "}
           and hosted on
-          <a href="https://.netlify.app/" target="_blank" rel="noreferrer">
+          <a
+            href="https://my-responsive-weather-app.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
             Netlify
           </a>
         </p>
